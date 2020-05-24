@@ -12,14 +12,6 @@ Initial scraping was accomplished using Jupyter Notebook, BeautifulSoup, Pandas,
 
 The example program scapes data from [NASA Mars News Site](https://mars.nasa.gov/news/) and collects the latest News Title and Paragraph Text. It then assigns the text to variables that are referenced later.
 
-```python
-# Example:
-news_title = "NASA's Next Mars Mission to Investigate Interior of Red Planet"
-
-*BONUS: The news_p was something that didn't come through because of page loading. You might have to try this with Selenium.
-news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up this summer, on course for launch next May from Vandenberg Air Force Base in central California -- the first interplanetary launch in history from America's West Coast."
-*END BONUS.
-
 The application also scrapes the JPL web site to get image urls for the current Featured Mars Image and assigns the url string to a variable called `featured_image_url`.
 
 ### Mars Weather
@@ -28,9 +20,7 @@ Text about Mars weather is scraped from: (https://twitter.com/marswxreport?lang=
 
 ### Mars Facts
 
-* Visit the Mars Facts webpage [here](http://space-facts.com/mars/) and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
-
-* Use Pandas to convert the data to a HTML table string.
+Mars Facts webpage (http://space-facts.com/mars/) is another source, and Pandas is used to scrape the table containing facts about the planet including Diameter, Mass, etc.
 
 ### Mars Hemispheres
 
